@@ -88,6 +88,12 @@ header .menu_header {
     font-weight: 800;
     text-align: center;
 }
+.banner_background .titulo_30_400 {
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
 .banner_background .clientes_melhores {
     height: 50px;
     width: 760px;
@@ -312,9 +318,11 @@ header .menu_header {
     width: 720px;
     background-color: #D4145A;
     border-radius: 45px;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    display: grid;
+    place-items: center;
 }
 .banner_background .video_player {
     margin: 100px auto;
@@ -392,11 +400,70 @@ header .menu_header {
     width: 340px;
     background-color: #D4145A;
     border-radius: 45px;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    display: grid;
+    place-items: center;
 }
 .banner_background .container_quem_produz {
     width: 1200px;
     margin-top: 214px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
 }
+.carrossel_professores_bg {
+    margin-top: 40px;
+    width: 100%;
+    height: 425px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.carrossel_professores_gradient {
+    width: 1440px;
+    height: 425px;
+    position: absolute;
+    background: linear-gradient(90deg,
+     rgba(0,0,0,1) 0%,
+     rgba(0,0,0,0) 203px,
+     rgba(0,0,0,0) 1237px,
+     rgba(0,0,0,1) 100%);
+}
+.banner_background .container_carrossel_professores {
+    width: 1440px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+
+}
+.container_carrossel_professores .container_professores {
+    margin-top: 39px;
+    width: 270px;
+    height: 336px;
+    border-radius: 8px;
+    border: 2px solid #333333;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container_professores .bg_nomes {
+    width: 198px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    bottom: -20px;
+    display: grid;
+    place-items: center;
+}
+.container_professores .bg_nomes spam {
+    color:#333333;
+    font-size: 16px;
+}
+
