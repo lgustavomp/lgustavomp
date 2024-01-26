@@ -852,13 +852,185 @@ footer {
     top: -72px;
     color: #333333;
 }
-/* .container_planos .valor_plano::before {
-    font-size: 30px;
-    color: #969696;
-    content: 'R$';
+.wrapper_flex_center .texto_parcele {
+    border: 2px solid #D0D0D0;
+    border-radius: 10px;
+    width: 1170px;
+    height: 80px;
+    display: grid;
+    place-items: center;
 }
-.container_planos .valor_plano::after {
-    font-size: 30px;
-    color: #969696;
-    content: ',00';
-} */
+.wrapper_flex_center .texto_parcele spam {
+    color: #333333;
+    font-size: 25px;
+}
+.wrapper_flex_center .texto_live {
+    /* border-width: 0 2px 2px 2px;
+    border-style: solid; */
+    background-color: #D0D0D0;
+    border-radius: 0 0 10px 10px;
+    width: 770px;
+    height: 55px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 175px;
+
+}
+.wrapper_flex_center .texto_live spam {
+    color: #333333;
+    font-size: 25px;
+    font-weight: 800;
+
+}
+
+/* Conteudo */
+.main_body_conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    counter-reset: etiqueta_counter;
+    margin-bottom: 183px;
+}
+.banner_background_conteudo {
+    height: 536px;
+    width: 100%;
+    background-image: url('assets/jpg/IMAGEM_TOPO.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.banner_background_conteudo .banner_conteudo_wrapper {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+.banner_background_conteudo spam {
+    width: 350px;
+    height: 150px;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 70px;
+    color: #333333;
+}
+.banner_background_conteudo p {
+    width: 450px;
+    height: 180px;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #333333;
+}
+.banner_background_conteudo p b{
+    font-weight: 800;
+    color: #333333;
+}
+.main_body_conteudo hr {
+    border: 5px solid #D4145A;
+    width: 100%;
+    margin-bottom: 62px;
+}
+.main_body_conteudo .wrapper_hashtags {
+    margin-top: 52px;
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.main_body_conteudo .wrapper_hashtags .hashtag {
+    padding: 14px 40px;
+    color: #333333;
+    font-size: 17px;
+    line-height: 16px ;
+    font-weight: 800;
+    border: 2px solid #333333;
+    border-radius: 24px;
+}
+.wrapper_hashtags .hashtag.vermelho {
+    color: #ffffff;
+    background-color: #D4145A;
+    border: 2px solid #D4145A;
+
+}
+.main_body_conteudo .wrapper_etiquetas {
+    margin-top: 50px;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+.wrapper_etiquetas .etiqueta {
+    margin: 5px 15px;
+    width: 366px;
+    height: 100px;
+    border: 2px solid #333333;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+.wrapper_etiquetas .etiqueta.vermelha {
+    border: 2px solid #D4145A;
+    background-color: #D4145A;
+}
+.etiqueta .etiqueta_counter {
+    width: 85px;
+    height: 60px;
+    border-right: 2px solid #333333;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.etiqueta.vermelha .etiqueta_counter {
+    border-right: 2px solid #ffffff;
+}
+.etiqueta .etiqueta_counter spam {
+    padding-left: 25px;
+    color: #333333;
+    font-size: 17px;
+    font-weight: 400;
+}
+.etiqueta.vermelha .etiqueta_counter spam {
+    color: #ffffff;
+}
+.etiqueta .etiqueta_counter .dois_zero::after {
+    display: block;
+    counter-increment: etiqueta_counter;
+    content: '00'counter(etiqueta_counter);
+    font-weight: 800;
+}
+.etiqueta .etiqueta_counter .um_zero::after {
+    display: block;
+    counter-increment: etiqueta_counter;
+    content: '0'counter(etiqueta_counter);
+    font-weight: 800;
+
+}
+
+.etiqueta .etiqueta_descricao {
+    margin-left: 15px;
+    width: 250px;
+    height: 60px;
+    line-height: 15px;
+}
+.etiqueta .etiqueta_descricao p {
+    padding-bottom: 8px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #333333;
+}
+.etiqueta .etiqueta_descricao spam {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+.etiqueta.vermelha .etiqueta_descricao p {
+    color: #ffffff;
+}
+.etiqueta.vermelha .etiqueta_descricao spam {
+    color: #ffffff;
+}
