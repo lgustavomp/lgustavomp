@@ -127,6 +127,11 @@ header .menu_header {
     font-weight: 800;
     text-align: center;
 }
+.titulo_25_800 {
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 30px;
+}
 .texto_200_400 {
     color: #333333;
     font-size: 20px;
@@ -136,6 +141,12 @@ header .menu_header {
     color: #333333;
     font-size: 20px;
     font-weight: 800;
+}
+.texto_25_400 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32.5px;
+    color: #333333;
 }
 .banner_background .clientes_melhores {
     height: 50px;
@@ -813,7 +824,7 @@ footer {
 .wrapper_valor .valor_plano_decor.RS {
     position: absolute;
     left: 10px;
-    top: 37px;
+    top: 27px;
 }
 .wrapper_valor .valor_plano_decor.OO {
     position: absolute;
@@ -1034,3 +1045,75 @@ footer {
 .etiqueta.vermelha .etiqueta_descricao spam {
     color: #ffffff;
 }
+
+/* entrar */
+.main_body_entrar {
+    margin: 0 auto;
+    width: 970px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main_body_entrar .titulo_hub {
+    width: 970px;
+    text-align: center;
+    margin: 120px 0;
+}
+.main_body_entrar .card_entrar {
+    height: 330px;
+    border: 10px solid #D4145A;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.main_body_entrar .card_entrar.grande {
+    width: 950px;
+    background-image: url('assets/jpg/IMAGEM_TOPO.jpg');
+    background-size: cover;
+}
+.main_body_entrar .card_entrar.pequeno {
+    width: 450px;
+    background-color: black;
+}
+.main_body_entrar .card_entrar.pequeno.alto {
+    height: 398px;
+    background-color: black;
+}
+.card_entrar .card_conteudo {
+    height: 185px;
+    width: auto;
+    margin: 17px 0 17px 27px;
+    padding-left: 21px;
+    border-left: 3px solid #D4145A;
+    display: block;
+}
+.card_entrar .card_conteudo p {
+    text-align: left;
+    line-height: 30px;
+    margin: 10px auto;
+}
+.card_entrar .wrapper_button {
+    margin-left: 27px;
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card_entrar .wrapper_button button {
+    padding: 15px 40px;
+    border-radius: 30px;
+}
+.card_entrar .wrapper_button p {
+    padding-top: 12px;
+    font-size: 16px;
+    color: #333333;
+}
+.card_entrar .wrapper_button p b {
+    font-weight: 800;
+    color: #333333;
+}
+/* .card_entrar .card_conteudo img {
+    padding-right: 100%;
+}
+.card_entrar .card_conteudo spam {
+    width: 100%;
+} */
