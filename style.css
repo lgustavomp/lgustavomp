@@ -109,6 +109,12 @@ header .menu_header {
     justify-content: center;
 
 }
+.titulo_50_400 {
+    color: #333333;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+}
 .titulo_50_800 {
     color: #333333;
     font-size: 50px;
@@ -120,6 +126,11 @@ header .menu_header {
     font-size: 30px;
     font-weight: 400;
     text-align: center;
+}
+.texto_30_400 {
+    color: #333333;
+    font-size: 30px;
+    font-weight: 400;
 }
 .titulo_30_800 {
     color: #333333;
@@ -1086,6 +1097,9 @@ footer {
     border-left: 3px solid #D4145A;
     display: block;
 }
+.card_entrar .card_conteudo.alto {
+    height: 253px;
+}
 .card_entrar .card_conteudo p {
     text-align: left;
     line-height: 30px;
@@ -1111,9 +1125,61 @@ footer {
     font-weight: 800;
     color: #333333;
 }
-/* .card_entrar .card_conteudo img {
-    padding-right: 100%;
+
+/* FAQ */
+
+.faq_titulo {
+    width: 1200px;
+    margin: 120px auto;
 }
-.card_entrar .card_conteudo spam {
+.wrapper_accordion {
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.accordion {
+    width: 970px;
+}
+.accordion .content_box {
+    position: relative;
+}
+.accordion .content_box .accordion_label {
+    position: relative;
+    border-bottom: 2px solid #333333;
+    cursor: pointer;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+/* .accordion .content_box .accordion_label::before {
+    content: 'e5cf';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
 } */
+.accordion .content_box .accordion_content {
+    position: relative;
+    padding-top: 10px;
+    height: 0;
+    overflow: hidden;
+    /* overflow-y: auto; */
+    transition: 0.25s ease-in;
+}
+.accordion .content_box.active .accordion_content {
+    height: auto;
+    padding: 10px;
+
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  color: #333333;
+  transition: 0.25s ease-in;
+}
+.material-symbols-outlined.open {
+    transform: rotate(90deg);
+}
