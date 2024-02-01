@@ -1,5 +1,4 @@
 const accordion = document.getElementsByClassName('content_box');
-// const arrow = document.getElementsByClassName('ma')
 for (i = 0; i<accordion.length; i++ ){
     accordion[i].addEventListener('click', function(){
         // accordion.classList.remove('active');

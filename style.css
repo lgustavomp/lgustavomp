@@ -978,7 +978,11 @@ footer {
     color: #ffffff;
     background-color: #D4145A;
     border: 2px solid #D4145A;
+}
+.wrapper_hashtags .hashtag {
 
+    background-color: transparent;
+    /* border: 2px solid #D4145A; */
 }
 .main_body_conteudo .wrapper_etiquetas {
     margin-top: 50px;
@@ -1058,7 +1062,9 @@ footer {
 .etiqueta.vermelha .etiqueta_descricao spam {
     color: #ffffff;
 }
-
+.etiqueta_tag {
+    display: none;
+}
 /* entrar */
 .main_body_entrar {
     margin: 0 auto;
