@@ -209,7 +209,7 @@ header .menu_header {
     height: 50px;
     width: 1200px;
 }
-.banner_background .tenha_acesso spam {
+.banner_background .tenha_acesso span {
     font-size: 30px;
     font-weight: 800;
     color:  #333333;
@@ -291,7 +291,7 @@ header .menu_header {
     justify-content: center;
     gap: 40px;
 }
-.texto_triangulo spam {
+.texto_triangulo span {
     width: 492px;
     font-size: 30px;
     font-weight: 800;
@@ -535,7 +535,7 @@ header .menu_header {
     display: grid;
     place-items: center;
 }
-.container_professores .bg_nomes spam {
+.container_professores .bg_nomes span {
     color:#333333;
     font-size: 16px;
 }
@@ -546,7 +546,7 @@ header .menu_header {
     gap:30px;
     justify-content: center;
 }
-.container_equipe spam {
+.container_equipe span {
     width: 969px;
 }
 .container_equipe .img_equipe_pequena {
@@ -637,7 +637,7 @@ header .menu_header {
     display: flex;
     align-items: center;
 }
-.container_assine .box_email spam {
+.container_assine .box_email span {
     font-size: 30px;
     font-weight: 800;
     color: #999999;
@@ -672,7 +672,7 @@ footer {
     padding: 5px 5px;
 }
 
-.wrapper_footer .botao_subir spam {
+.wrapper_footer .botao_subir span {
     font-size: 20px;
     color: #c4c4c4;
 }
@@ -759,7 +759,7 @@ footer {
     display: grid;
     place-items: center;
 }
-.wrapper_circulos .circulo spam {
+.wrapper_circulos .circulo span {
     color: #969696;
     text-align: center;
 }
@@ -882,7 +882,7 @@ footer {
     display: grid;
     place-items: center;
 }
-.wrapper_flex_center .texto_parcele spam {
+.wrapper_flex_center .texto_parcele span {
     color: #333333;
     font-size: 25px;
 }
@@ -898,7 +898,7 @@ footer {
     margin-bottom: 175px;
 
 }
-.wrapper_flex_center .texto_live spam {
+.wrapper_flex_center .texto_live span {
     color: #333333;
     font-size: 25px;
     font-weight: 800;
@@ -930,7 +930,7 @@ footer {
     justify-content: center;
     gap: 40px;
 }
-.banner_background_conteudo spam {
+.banner_background_conteudo span {
     width: 350px;
     height: 150px;
     font-size: 64px;
@@ -1016,27 +1016,18 @@ footer {
 .etiqueta.vermelha .etiqueta_counter {
     border-right: 2px solid #ffffff;
 }
-.etiqueta .etiqueta_counter spam {
+.etiqueta .etiqueta_counter span {
     padding-left: 25px;
     color: #333333;
     font-size: 17px;
     font-weight: 400;
 }
-.etiqueta.vermelha .etiqueta_counter spam {
+.etiqueta.vermelha .etiqueta_counter span {
     color: #ffffff;
 }
-.etiqueta .etiqueta_counter .dois_zero::after {
+.etiqueta .etiqueta_counter .etiqueta_id {
     display: block;
-    counter-increment: etiqueta_counter;
-    content: '00'counter(etiqueta_counter);
     font-weight: 800;
-}
-.etiqueta .etiqueta_counter .um_zero::after {
-    display: block;
-    counter-increment: etiqueta_counter;
-    content: '0'counter(etiqueta_counter);
-    font-weight: 800;
-
 }
 
 .etiqueta .etiqueta_descricao {
@@ -1051,7 +1042,7 @@ footer {
     font-weight: 800;
     color: #333333;
 }
-.etiqueta .etiqueta_descricao spam {
+.etiqueta .etiqueta_descricao span {
     font-size: 14px;
     font-weight: 400;
     color: #333333;
@@ -1059,7 +1050,7 @@ footer {
 .etiqueta.vermelha .etiqueta_descricao p {
     color: #ffffff;
 }
-.etiqueta.vermelha .etiqueta_descricao spam {
+.etiqueta.vermelha .etiqueta_descricao span {
     color: #ffffff;
 }
 .etiqueta_tag {
